@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <section class="hero hero-entities">
+        <section class="hero is-medium">
             <!-- Hero head: will stick at the top -->
             <div class="hero-head">
                 <nav class="navbar">
@@ -8,7 +8,7 @@
                         <div class="navbar-brand">
                             <a class="navbar-item is-hidden-desktop" style="display: inline-grid; margin-left: auto;">
                                 <span class="logo-text">Tshidiso</span>
-                                <span class="logo-text" style="padding-left:31px; margin-top: -18px;">Molupe</span>
+                                <span class="logo-text" style="padding-left:31px">Molupe</span>
                             </a>
                             <span 
                                 class="navbar-burger"
@@ -28,7 +28,7 @@
                             <div class="navbar-item">
                                 <a class="navbar-item is-hidden-touch" style="display: inline-grid; margin-left: auto;">
                                     <span class="logo-text">Tshidiso</span>
-                                    <span class="logo-text" style="padding-left:31px; margin-top: -18px;">Molupe</span>
+                                    <span class="logo-text" style="padding-left:31px">Molupe</span>
                                 </a>
                             </div>
                             <div class="navbar-end">
@@ -79,12 +79,12 @@
             <div class="hero-body">
                 <div class="container">
                     <div class="columns">
-                        <div class="column">
-                            <h1 class="header-title is-size-1-desktop is-size-2-mobile is-size-1-tablet">Hello There.<br>My name is <span style="font-weight:bold">Tshidiso</span></h1>
-                            <h2 class="header-subtitle is-size-5-desktop is-size-5-mobile is-size-5-tablet">Let me  help you build a website<br>that add value to your business</h2>
+                        <div class="column pl-6">
+                            <h1 class="header-title title has-text-center-mobile is-size-1-desktop is-size-2-mobile is-size-2-tablet">Hello There.<br>My name is <span style="font-weight:bold">Tshidiso</span></h1>
+                            <h2 class=" header-subtitle subtitle is-size-5-desktop is-size-6-mobile is-size-6-tablet pt-5">Let me  help you build a website<br>that add value to your business</h2>
                             <a class="button btn-hero">Hire Me</a>
                         </div>
-                        <div class="column">
+                        <div class="column pr-6">
                             <figure class="image">
                                 <img class="hero-image" src="@/assets/img/image_hero.svg">
                             </figure>
@@ -120,34 +120,21 @@ export default {
 
 #app {
     font-family: var(--secondary-font);
-    height: 100vh;
 }
 
-.hero {
-    height: 100vh;
-}
 
 .header-title {
     font-style: normal;
-    font-weight: 300;
-    line-height: 120%;
-    text-align: left;
-    position: absolute;
-    top: 80px;
-    left: 10px;
-    color: #000000;
+    font-weight: 300 !important;
+    align-items: center !important;
+    color: #000000 !important;
 }
 
 .header-subtitle {
     font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 300 !important;
     line-height: 120%;
-    text-align: left;
-    position: absolute;
-    top: 240px;
-    left: 10px;
-    color: #000000;
+    color: #000000 !important;
 }
 
 .navbar-item {
@@ -171,34 +158,16 @@ export default {
     border-radius: 5px !important;
     color: #ffff !important;
     width: 198px;
-    position: absolute;
-    top: 320px;
-    left: 10px;
     font-style: normal;
     font-weight: 300;
     line-height: 120%;
     border-color: #00AC90 !important;
 }
 
-@media screen and (max-width: 769px){
-.hero-image {
-    height: auto;
-    width: 100%;
-    position: absolute;
-    top: 338px;
-   }
-}
-
-
 body {
     margin: 0px;
-    height: 100vh;
-    background: rgba(252, 163, 17, 0.19);
+    background: rgba(252, 163, 17, 0.19) !important;
 }
 
-@media screen and (max-width: 769px){
-body {
-    height: 115vh !important;
-   }
-}
+
 </style>
