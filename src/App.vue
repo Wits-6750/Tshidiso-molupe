@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <section class="hero is-medium">
+        <section class="hero">
             <!-- Hero head: will stick at the top -->
             <div class="hero-head">
                 <nav class="navbar">
@@ -77,7 +77,7 @@
 
             <!-- Hero content: will be in the middle -->
             <div class="hero-body">
-                <div class="container">
+                <div class="container ">
                     <div class="columns">
                         <div class="column pl-6">
                             <h1 class="header-title title has-text-center-mobile is-size-1-desktop is-size-2-mobile is-size-2-tablet">Hello There.<br>My name is <span style="font-weight:bold">Tshidiso</span></h1>
@@ -92,6 +92,21 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="section p-0">
+            <div class="container is-fluid section-2-background p-5">
+                <div class="columns is-justify-content-center">
+                    <div class="column">
+                        <h1 class="title has-text-white has-text-centered section-2-header"> What can I do<br> for you</h1>
+                        <h2 class="has-text-white has-text-centered">
+                            Build and design beautiful website to turn<br>
+                            visitors into paying customer
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
     </div>
 </template>
@@ -115,6 +130,7 @@ export default {
     --secondary-color: #14213d;
     --primary-font: "Dancing Script", cursive;
     --secondary-font: "Lato", sans-serif;
+    --tertiary-font:  "Playfair Display", serif;
     --tertiary-font: "Playfair Display", serif;
 }
 
@@ -122,7 +138,9 @@ export default {
     font-family: var(--secondary-font);
 }
 
-
+.hero-body {
+    padding: 5rem 5rem !important;
+}
 .header-title {
     font-style: normal;
     font-weight: 300 !important;
@@ -164,6 +182,14 @@ export default {
     border-color: #00AC90 !important;
 }
 
+.section-2-background {
+    background: var(--secondary-color);
+}
+.section-2-header{
+    font-family: var(--tertiary-font);
+    font-style: normal;
+    line-height: 120% !important;
+}
 body {
     margin: 0px;
     background: rgba(252, 163, 17, 0.19) !important;
