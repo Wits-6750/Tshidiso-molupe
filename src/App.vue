@@ -166,36 +166,114 @@
         <section class="section">
             <div class="container is-fluid">
                 <h1 class="title is-size-2 pb-4 is-size-4-mobile has-text-centered section-header">Approach</h1>
-
+                <h3 class="subtitle is-size-6 section-subheader">In order to create the best website possible there is four main steps <br>taken before the final product is released</h3>
                 <div class="columns is-flex-direction-column is-justify-content-center">
                     <div class="column ">
                         <div class="approach-box is-align-content-center bkg-img-1">
                             <h1 class="title is-size-3 pb-4 is-size-4-mobile has-text-left pl-5 pt-2">Interview</h1>
-                            <h2 class="subtitle is-size-5 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Interview with the client to discuss business needs to get an idea of their requirements and get an understanding of their band goals.</h2>
+                            <h2 class="subtitle is-size-4 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Interview with the client to discuss business needs to get an idea of their requirements and get an understanding of their band goals.</h2>
                         </div>
                     </div>
                     <div class="column">
                         <div class="approach-box is-align-content-center bkg-img-2">
                             <h1 class="title is-size-3 pb-4 is-size-4-mobile has-text-left pl-5 pt-2">Design</h1>
-                            <h2 class="subtitle is-size-5 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Design website using figma with the client involved throughout the whole process.</h2>
+                            <h2 class="subtitle is-size-4 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Design website using figma with the client involved throughout the whole process.</h2>
                         </div>
                     </div>
                     <div class="column">
                         <div class="approach-box is-align-content-center bkg-img-3">
                             <h1 class="title is-size-3 pb-4 is-size-4-mobile has-text-left pl-5 pt-2">Build Website</h1>
-                            <h2 class="subtitle is-size-5 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Once the client is happy with the design, next step is to build the websites using htlm, css and javascript.</h2>
+                            <h2 class="subtitle is-size-4 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Once the client is happy with the design, next step is to build the websites using htlm, css and javascript.</h2>
                         </div>
                     </div>
                     <div class="column">
                         <div class="approach-box is-align-content-center bkg-img-4">
                             <h1 class="title is-size-3 pb-4 is-size-4-mobile has-text-left pl-5 pt-2">Launch</h1>
-                            <h2 class="subtitle is-size-5 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">hooray!!! help client setup domain name if they don’t already have one and launch the website with Netlify. Also teach client how to do updates like changing photos and text</h2>
+                            <h2 class="subtitle is-size-4 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">hooray!!! help client setup domain name if they don’t already have one and launch the website with Netlify. Also teach client how to do updates like changing photos and text</h2>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
+        <section class="section p-0  m-6">
+            <div class="container">
+                <h1 class="title is-size-2  is-size-4-mobile has-text-centered section-header">About Me</h1>
+                <div class="columns">
+                    <div class="column is-7">
+                        <h1 class="title is-size-3 m-5 is-size-4-mobile has-text-left pt-6 section-header has-text-weight-bold">
+                            I’m Tshidiso, a software <br>
+                            developer and designer<br> working as a UX/UI designer<br>
+                            based in Johannesburg, South Africa
+                        </h1>
+
+                        <p class="m-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit cursus ex, eu sodales enim ultricies ut. In suscipit imperdiet viverra
+                        </p>
+
+                        <p class="m-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit cursus ex, eu sodales enim ultricies ut. In suscipit imperdiet viverra
+                        </p>
+
+                        <p class="m-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit cursus ex, eu sodales enim ultricies ut. In suscipit imperdiet viverra
+                        </p>
+                    </div>
+                    <div class="column is-5 mt-4">
+                        <figure class="image is-3by4 ">
+                            <img class="my-image" src="@/assets/img/me.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer section-2-background p-6">
+            <div class="content has-text-centered">
+                <h1 class="is-size-2 has-text-white has-text-weight-medium	">Hire Me</h1>
+                <p class="has-text-white has-text-weight-light">Interested in building  a new website for your buisiness or<br> you just want to chat about I can be of service to<br> you, don’t be afraid to send a message.</p>
+
+                <h1 class="is-size-4 has-text-white has-text-weight-medium">+27 73 232 4298</h1>           
+                <h1 class="is-size-5 has-text-white has-text-weight-medium">
+                    <a  href="mailto:stmolupe@gmail.com" class="has-text-white">hello@tshidiso-molupe.com</a>
+                </h1>   
+                <h1 class="is-size-5 mt-6 has-text-white has-text-weight-medium">Socials</h1>
+                <div class="field " style="display:inline-flex">
+                    <p class="control">
+                        <a 
+                            href="https://dribbble.com/SydChill"
+                            target="_"
+                                style="color:#fff">
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </p>
+                    <p class="control">
+                        <a
+                        href="https://www.linkedin.com/in/tshidiso-molupe-68752899/"
+                        target="_"
+                        style="color:#fff">
+                        <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </p>
+                    <p class="control">
+                        <a 
+                            href="https://www.instagram.com/tshidiso_designs/"
+                            target="_"
+                            class="contron"
+                            style="color:#fff">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </p>
+                    <p class="control">
+                        <a
+                        href="mailto:stmolupe@gmail.com"
+                        target="_"
+                        style="color:#fff" >
+                        <i class="fa fa-envelope-o"></i>
+                        </a>
+                    </p>
+                </div>     
+            </div>
+        </footer>
     </div>
 </template>
 
@@ -230,7 +308,17 @@ export default {
     font-style: normal !important;
     font-weight: normal !important;
     line-height: 120% !important;
-    color: #000000 !important;
+    color: var(--secondary-color) !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.section-subheader {
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 120% !important;
+    text-align: center;
+    color: #505561;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
 }
@@ -278,8 +366,13 @@ export default {
     border-color: #00AC90 !important;
 }
 
+.about-me {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    line-height: 120% !important;
+}
 .section-2-background {
-    background: var(--secondary-color);
+    background: var(--secondary-color) !important;
 }
 .section-2-header{
     font-family: var(--tertiary-font);
@@ -293,7 +386,6 @@ export default {
 
 .approach-box {
     width: 50%;
-    height: 200px;
     margin: 3rem auto;
     padding: 10px
 }
@@ -301,6 +393,7 @@ export default {
 @media only screen and (max-width: 760px) {
  .approach-box {
         width: 100%;
+
   }
 }
 
@@ -337,6 +430,14 @@ export default {
 .approach-box h1, h2{
     color: #fff;
 }
+.my-image{
+    box-shadow: 4px 17px 28px 10px rgba(0, 0, 0, 0.36);
+    border-radius: 63px !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 body {
     margin: 0px;
     background: rgba(252, 163, 17, 0.19) !important;
