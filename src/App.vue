@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <section class="hero">
+        <section class="hero" style="max-height: 760px;">
             <!-- Hero head: will stick at the top -->
             <div class="hero-head">
                 <nav class="navbar">
@@ -93,20 +93,108 @@
                 </div>
             </div>
         </section>
-        <section class="section p-0">
+        <!-- Section 2 -->
+        <section class="section p-0 mt-6">
             <div class="container is-fluid section-2-background p-5">
                 <div class="columns is-justify-content-center">
                     <div class="column">
-                        <h1 class="title has-text-white has-text-centered section-2-header"> What can I do<br> for you</h1>
+                        <h1 class="title is-size-1 has-text-white has-text-centered section-2-header"> What can I do<br> for you</h1>
                         <h2 class="has-text-white has-text-centered">
                             Build and design beautiful website to turn<br>
                             visitors into paying customer
                         </h2>
                     </div>
                 </div>
-
             </div>
+        </section>
+        <section class="section">
+            <h1 class="title is-size-2 pb-4 is-size-4-mobile has-text-centered section-header">Latest Work</h1>
+            <div class="columns">
+                <div class="column is-4">
+                    <div class="card" style="backgroun:#007C8E !important">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="@/assets/img/work_1.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media"> 
+                                <div class="media-content">
+                                    <p class="title is-4">Legal firm website redesign</p>
+                                    <a class="button is-small">View website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="@/assets/img/work_2.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media"> 
+                                <div class="media-content">
+                                    <p class="title is-4">Legal firm website redesign</p>
+                                    <p class="subtitle is-6 mt-4">Under construction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="@/assets/img/work_3.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media"> 
+                                <div class="media-content">
+                                    <p class="title is-4">Direct messaging application build with Vue.js and flask</p>
+                                    <a class="button is-small">View website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container is-fluid">
+                <h1 class="title is-size-2 pb-4 is-size-4-mobile has-text-centered section-header">Approach</h1>
 
+                <div class="columns is-flex-direction-column is-justify-content-center">
+                    <div class="column ">
+                        <div class="approach-box is-align-content-center bkg-img-1">
+                            <h1 class="title is-size-3 pb-4 is-size-4-mobile has-text-left pl-5 pt-2">Interview</h1>
+                            <h2 class="subtitle is-size-5 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Interview with the client to discuss business needs to get an idea of their requirements and get an understanding of their band goals.</h2>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="approach-box is-align-content-center bkg-img-2">
+                            <h1 class="title is-size-3 pb-4 is-size-4-mobile has-text-left pl-5 pt-2">Design</h1>
+                            <h2 class="subtitle is-size-5 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Design website using figma with the client involved throughout the whole process.</h2>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="approach-box is-align-content-center bkg-img-3">
+                            <h1 class="title is-size-3 pb-4 is-size-4-mobile has-text-left pl-5 pt-2">Build Website</h1>
+                            <h2 class="subtitle is-size-5 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">Once the client is happy with the design, next step is to build the websites using htlm, css and javascript.</h2>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="approach-box is-align-content-center bkg-img-4">
+                            <h1 class="title is-size-3 pb-4 is-size-4-mobile has-text-left pl-5 pt-2">Launch</h1>
+                            <h2 class="subtitle is-size-5 pb-4 is-size-6-mobile has-text-left pl-5 pt-4 has-text-white">hooray!!! help client setup domain name if they don’t already have one and launch the website with Netlify. Also teach client how to do updates like changing photos and text</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </section>
     </div>
 </template>
@@ -124,20 +212,28 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300;400;900&family=Playfair+Display:wght@700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 :root {
     --primary-color: #fca311;
     --secondary-color: #14213d;
     --primary-font: "Dancing Script", cursive;
     --secondary-font: "Lato", sans-serif;
     --tertiary-font:  "Playfair Display", serif;
-    --tertiary-font: "Playfair Display", serif;
 }
 
 #app {
     font-family: var(--secondary-font);
 }
 
+.section-header {
+    font-family: var(--tertiary-font);
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 120% !important;
+    color: #000000 !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
 .hero-body {
     padding: 5rem 5rem !important;
 }
@@ -189,6 +285,57 @@ export default {
     font-family: var(--tertiary-font);
     font-style: normal;
     line-height: 120% !important;
+}
+.latest-work-img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px 0px 0px 20px ;
+}
+
+.approach-box {
+    width: 50%;
+    height: 200px;
+    margin: 3rem auto;
+    padding: 10px
+}
+
+@media only screen and (max-width: 760px) {
+ .approach-box {
+        width: 100%;
+  }
+}
+
+.bkg-img-1 {
+    background: url("./assets/img/approach_1.jpg");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bkg-img-2 {
+    background: url("./assets/img/approach_2.jpg");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bkg-img-3 {
+    background: url("./assets/img/approach_3.jpg");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bkg-img-4 {
+    background: url("./assets/img/approach_4.jpg");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.approach-box h1, h2{
+    color: #fff;
 }
 body {
     margin: 0px;
